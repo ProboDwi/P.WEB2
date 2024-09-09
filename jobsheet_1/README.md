@@ -1,7 +1,11 @@
-# JOBSHEET 1
+# Jobsheet 1: Implementasi Prinsip OOP dalam PHP
+## Tujuan
+Melalui jobsheet ini, mahasiswa diharapkan mampu mengimplementasikan konsep dasar OOP dalam pemrograman PHP dengan membuat class, objek, serta menerapkan prinsip Encapsulation, Inheritance, Polymorphism, dan Abstraction.
+## Instruksi
+
+## 1. Membuat class dan object
 ## Class dan Object
 ###  Class
-
 Class merupakan rancangan atau blueprint yang terdiri dari beberapa struktur dan perilaku mengenai object, yang dimana struktur tersebut berisi properti(atribut) dan tingkah laku atau metode(method) yang dimiliki.
 
 Contoh class:
@@ -10,7 +14,6 @@ class Mahasiswa
 ```
 
 ### Object
-
 Object merupakan instance dari class yang memiliki properti(atribut) dan metode(method), yang dapat digunakan untuk memanipulasi data atau untuk menjalankan sebuah fungsi.
 
 Contoh object:
@@ -18,7 +21,6 @@ Contoh object:
 $mahasiswa = new mahasiswa;
 ```
 
-## 1. Membuat class dan object
 - Membuat class Mahasiswa dengan atribut nama, nim, jurusan. 
 ```sh
 // Definisi Class
@@ -46,6 +48,7 @@ public function tampilkanData() {
         return "Nama: $this->nama, Nim: $this->nim, Jurusan: $this->jurusan";
     }
 ```
+
 - Instansiasi objek dari class Mahasiswa dan tampilkan data mahasiswa tersebut.
 ```sh
 // instansiasi objek
@@ -53,8 +56,12 @@ $mahasiswa1 = new Mahasiswa("Andi Prasetyo", "123456789", "Teknik Informatika");
 // mengambil fungsi dari class Mahasiswa
 echo $mahasiswa1->tampilkanData();
 ```
+
 - Berikut ini adalah kode lengkapnya.
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/class%26object.png)
+### Penjelasan:
+- Class Mahasiswa: Class ini memiliki atribut nama, nim, jurusan, serta metode tampilkanData().
+- Object: $mahasiswa1 adalah instance dari class Mahasiswa, dan data mahasiswa ditampilkan menggunakan metode tampilkanData().
 
 - Ini adalah output dari kode tersebut.
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/output_class%26object.png)
@@ -116,6 +123,12 @@ echo $mahasiswa->getJurusan();
 
 - Contoh kode lengkap.
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/encapsulation.png)
+### Penjelasan:
+- 'Get' digunakan untuk mengambil nilai properti
+- 'set' digunakan untuk menetapkan (atau mengubah) nilai properti.
+- Cara menampilkan data dengan 'get' adalah dengan menjalankan atau mengambil fungsi get dari class tersebut.
+
+
 - Output dari kode tersebut.
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/output_encapsulation.png)
 
@@ -150,6 +163,11 @@ echo $dosen->getMatakuliah();
 
 - Contoh kode lengkap
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/inheritance.png)
+### Penjelasan:
+- protected: digunakan ketika ada kondisi dimana class tersebut akan diturunkan, protected hanya bisa digunakan oleh class induk dan class turunannya.
+- extends: digunakan untuk mengambil atribut atau method yang ada pada class indukan.
+- parent: untuk inisialisasi atribut yang diambil dari class induk.
+
 - Output
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/output_inheritance.png)
 
@@ -203,6 +221,7 @@ $mahasiswa->aksesFitur();
 
 - Contoh kode lengkap
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/polymorphism.png)
+
 - Output
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/output_polymorphism.png)
 
