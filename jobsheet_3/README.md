@@ -129,6 +129,11 @@ class OfflineCourse extends Course {
     }
 }
 ```
+- Berikut ini adalah kode lengakpnya.
+![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_3/img_Jobsheet3/Instruksi.png)
+
+- Output </br>
+![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_3/img_Jobsheet3/instruksi_output.png)
 
 # Dokumentasi Tugas
 ### 1. Implementasikan kelas Person sebagai induk dari Dosen dan Mahasiswa.
@@ -267,3 +272,9 @@ class JurnalMahasiswa extends Jurnal {
 }
 ```
 Kelas abstract Jurnal mendefinisikan metode statusPengajuan() yang harus diimplementasikan oleh kelas turunan seperti JurnalDosen dan JurnalMahasiswa.
+
+- Kode lengkap:
+![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_3/img_Jobsheet3/tugas.png)
+
+- Output </br>
+![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_3/img_Jobsheet3/tugas_output.png)
