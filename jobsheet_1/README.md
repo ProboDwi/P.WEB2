@@ -9,7 +9,7 @@ Melalui jobsheet ini, mahasiswa diharapkan mampu mengimplementasikan konsep dasa
 Class merupakan rancangan atau blueprint yang terdiri dari beberapa struktur dan perilaku mengenai object, yang dimana struktur tersebut berisi properti(atribut) dan tingkah laku atau metode(method) yang dimiliki.
 
 Contoh class:
-```sh
+```php
 class Mahasiswa
 ```
 
@@ -17,12 +17,12 @@ class Mahasiswa
 Object merupakan instance dari class yang memiliki properti(atribut) dan metode(method), yang dapat digunakan untuk memanipulasi data atau untuk menjalankan sebuah fungsi.
 
 Contoh object:
-```sh
+```php
 $mahasiswa = new mahasiswa;
 ```
 
 - Membuat class Mahasiswa dengan atribut nama, nim, jurusan. 
-```sh
+```php
 // Definisi Class
 class Mahasiswa {
     // Atribut atau properties
@@ -41,7 +41,7 @@ class Mahasiswa {
 ```
 
 - Membuat metode tampilkanData() dalam class Mahasiswa.
-```sh
+```php
 // Metode atau function
 public function tampilkanData() {
         // return digunakan untuk mengembalikan nilai dari properti(atribut)
@@ -50,7 +50,7 @@ public function tampilkanData() {
 ```
 
 - Instansiasi objek dari class Mahasiswa dan tampilkan data mahasiswa tersebut.
-```sh
+```php
 // instansiasi objek
 $mahasiswa1 = new Mahasiswa("Andi Prasetyo", "123456789", "Teknik Informatika");
 // mengambil fungsi dari class Mahasiswa
@@ -70,7 +70,7 @@ echo $mahasiswa1->tampilkanData();
 Encapsulation: Menyembunyikan detail implementasi dan hanya memberikan
 akses melalui metode tertentu.
 - Mengubah atribut dalam class Mahasiswa menjadi private.
-```sh
+```php
 class Mahasiswa {
     // private berarti variabel atau atribut tersebut hanya bisa diakses didalam class tersebut.
     private $nama;
@@ -80,7 +80,7 @@ class Mahasiswa {
 ```
 
 - Membuat metode get dan set untuk atribut nama, nim, dan jurusan.
-```sh
+```php
     // get digunakan untuk mengambil nilai properti(atribut)
     public function getNama() {
         // return digunakan untuk mengembalikan nilai dari properti(atribut)
@@ -111,7 +111,7 @@ class Mahasiswa {
 ```
 
 - Implementasi get dan set.
-```sh
+```php
 // Instansiasi Objek
 $mahasiswa = new Mahasiswa("Andi Prasetyo", "123456789", "Teknik Informatika");
 echo $mahasiswa->getNama();
@@ -135,7 +135,7 @@ echo $mahasiswa->getJurusan();
 ## 3. Inheritance
 Inheritance: Kelas dapat mewarisi properti dan metode dari kelas lain.
 - Buat class Pengguna dengan atribut nama dan metode getNama().
-```sh
+```php
 class Pengguna {
     // protected hanya bisa digunakan untuk class induk dan turunannya
     protected $nama;
@@ -143,7 +143,7 @@ class Pengguna {
 ```
 
 - Buat class Dosen yang mewarisi class Pengguna dan tambahkan atribut mataKuliah.
-```sh
+```php
 // extends digunakan agar bisa mengambil atribut dan method yang ada di class induk
 class Dosen extends Pengguna {
     private $matakuliah;
@@ -151,7 +151,7 @@ class Dosen extends Pengguna {
 ```
 
 - Instansiasi objek dari class Dosen dan tampilkan data dosen.
-```sh
+```php
 // instansiasi objek
 $dosen = new Dosen("Andi Prasetyo", "Pemrograman PHP");
 // mengambil fungsi atau method dari class pengguna
@@ -174,7 +174,7 @@ echo $dosen->getMatakuliah();
 ## 4. Polymorphism
 Polymorphism: Metode yang sama dapat memiliki implementasi berbeda dalam class yang berbeda.
 - Buat class Pengguna dengan metode aksesFitur().
-```sh
+```php
 class Pengguna {
     public function aksesFitur() {
         echo "Akses fitur pengguna <br>";
@@ -183,7 +183,7 @@ class Pengguna {
 ```
 
 - Implementasikan aksesFitur() dengan cara berbeda di class Dosen dan Mahasiswa.
-```sh
+```php
 class Dosen extends Pengguna {
     public function aksesFitur() {
         echo "Akses fitur Dosen: " .$this->getNama(). "<br>";
@@ -198,7 +198,7 @@ class Mahasiswa extends Pengguna {
 ```
 
 - Instansiasi objek dari class Dosen dan Mahasiswa, lalu panggil metode aksesFitur().
-```sh
+```php
 // instansiasi objek
 $pengguna = new Pengguna();
 // mengambil method dari class Pengguna
@@ -228,7 +228,7 @@ $mahasiswa->aksesFitur();
 ## 5. Abstraction
 Abstraction: Menyembunyikan detail implementasi dan hanya menampilkan fungsi penting.
 - Buat class abstrak Pengguna dengan metode abstrak aksesFitur().
-```sh
+```php
 // hanya perlu menambahkan kode "abstract" di depan agar bisa menggunakan prinsip abstraction
 abstract class Pengguna {
     //atribut class pengguna
@@ -239,7 +239,7 @@ abstract class Pengguna {
 ```
 
 - Implementasikan class Mahasiswa dan Dosen yang mengimplementasikan metode abstrak tersebut.
-```sh
+```php
 class Dosen extends Pengguna {
     public function aksesFitur() {
         echo "Akses fitur Dosen: " .$this->getNama(). "<br>";
@@ -254,7 +254,7 @@ class Mahasiswa extends Pengguna {
 ```
 
 - Demonstrasikan dengan memanggil metode aksesFitur() dari objek yang diinstansiasi.
-```sh
+```php
 // instansiasi objek
 $dosen = new Dosen();
 // menetapkan nilai atribut
