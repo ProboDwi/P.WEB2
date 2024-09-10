@@ -3,7 +3,8 @@
 ![Static Badge](https://img.shields.io/badge/NIM-230202041-bottlegreen)<br/>
 ![Static Badge](https://img.shields.io/badge/Kelas-TI2B-bottlegreen) 
 
-## Repository ini dibuat untuk memenuhi tugas matakuliah Pemrograman Web 2.
+## Tujuan
+Repository ini dibuat untuk memenuhi tugas matakuliah Pemrograman Web 2 yang diampu oleh Pak Prih Diantono Abda`U, S.Kom., M.Kom.
 
 ## Daftar Isi
 - [Jobsheet 1](https://github.com/ProboDwi/P.WEB2/tree/main/jobsheet_1)
