@@ -4,7 +4,7 @@
 ![Static Badge](https://img.shields.io/badge/Kelas-TI2B-bottlegreen) 
 
 ## OOP PHP Introduction ✨
-Repository ini dibuat untuk memenuhi tugas matakuliah Pemrograman Web 2 yang diampu oleh Pak Prih Diantono Abda`U, S.Kom., M.Kom.
+Repository ini dibuat untuk memenuhi tugas matakuliah Pemrograman Web 2 yang diampu oleh Pak Prih Diantono Abda'U, S.Kom., M.Kom.
 Oriented Object Pemrograman (OOP) adalah paradigma pemrograman berorientasi objek, yang didalamnya terdapat class dan object yang digunakan untuk memodelkan masalah dunia nyata kedalam kode program.
 
 ## 📌 Daftar Isi
