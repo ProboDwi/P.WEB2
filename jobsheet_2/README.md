@@ -90,7 +90,7 @@ saat dijalankan pada browser yang tadinya jurusan "TI" akan di update dengan jur
 - Ubah nilai atribut nim dari objek Mahasiswa menggunakan metode setter.
   buat metode get dan set terlebih dahulu
 ```php
-// untuk mengambil nilai atribut
+// untuk mengakses nilai atribut
     public function getNim(){
         return $this->nim;
     }
