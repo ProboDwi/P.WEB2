@@ -9,6 +9,7 @@ Oriented Object Pemrograman (OOP) adalah paradigma pemrograman berorientasi obje
 
 ## 📌 Daftar Isi
 - [Jobsheet 1](https://github.com/ProboDwi/P.WEB2/tree/main/jobsheet_1)
+- [Jobsheet 2](https://github.com/ProboDwi/P.WEB2/tree/main/jobsheet_2)
 
 ## Authors 🚀
 - [@ProboDwiWahyudi](https://github.com/ProboDwi)
