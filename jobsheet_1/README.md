@@ -81,7 +81,7 @@ class Mahasiswa {
 
 - Membuat metode get dan set untuk atribut nama, nim, dan jurusan.
 ```php
-    // get digunakan untuk mengambil nilai properti(atribut)
+    // get digunakan untuk mengakses nilai properti(atribut)
     public function getNama() {
         // return digunakan untuk mengembalikan nilai dari properti(atribut)
         return $this->nama;
@@ -124,8 +124,8 @@ echo $mahasiswa->getJurusan();
 - Contoh kode lengkap.
 ![alt text](https://github.com/ProboDwi/P.WEB2/blob/main/jobsheet_1/image/encapsulation.png)
 ### Penjelasan:
-- 'Get' digunakan untuk mengambil nilai properti
-- 'set' digunakan untuk menetapkan (atau mengubah) nilai properti.
+- 'Get' digunakan untuk mengakses nilai properti
+- 'set' digunakan untuk menetapkan atau mengubah nilai properti.
 - Cara menampilkan data dengan 'get' adalah dengan menjalankan atau mengambil fungsi get dari class tersebut.
 
 
